@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "1",
-      "name": "1",
+      "name": "Teste",
       "price": "321",
       "description": "Descrição do Produto 1",
       "photo_url": "https://picsum.photos/200"
