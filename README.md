@@ -61,32 +61,33 @@ npm run dev
 
 ```
 src/
-├── components/
-│   ├── header/
-│   │   └── Header.jsx
-│   ├── productCard/
-│   │   └── ProductCard.jsx
+├── components/                # Componentes reutilizáveis da aplicação
+│   ├── header/               # Componentes relacionados ao cabeçalho
+│   │   └── Header.jsx        # Componente principal do cabeçalho
+│   ├── productCard/          # Componentes relacionados aos cards de produtos
+│   │   └── ProductCard.jsx   # Componente que exibe informações resumidas de um produto
 │
-├── layout/
-│   ├── MainLayout.jsx
-│   └── ProductLayout.jsx
+├── layout/                   # Layouts gerais usados nas páginas
+│   ├── MainLayout.jsx        # Layout principal da aplicação
+│   └── ProductLayout.jsx     # Layout específico para páginas de produto
 │
-├── pages/
-│   ├── addProducts.jsx
-│   ├── EditProduct.jsx
-│   ├── ErrorPage.jsx
-│   ├── HomePage.jsx
-│   ├── ProductDetail.jsx
-│   ├── ProductPage.jsx
-│   └── SobrePage.jsx
+├── pages/                    # Páginas da aplicação
+│   ├── addProducts.jsx       # Página para adicionar novos produtos
+│   ├── EditProduct.jsx       # Página para editar produtos existentes
+│   ├── ErrorPage.jsx         # Página exibida em caso de erro (404, etc)
+│   ├── HomePage.jsx          # Página inicial
+│   ├── ProductDetail.jsx     # Página de detalhes de um produto específico
+│   ├── ProductPage.jsx       # Página que lista os produtos
+│   └── SobrePage.jsx         # Página com informações sobre a aplicação
 │
-├── routes/
-│   └── CustomRoutes.jsx
+├── routes/                   # Arquivo de configuração das rotas
+│   └── CustomRoutes.jsx      # Define as rotas e os componentes associados
 │
-├── App.jsx
-├── main.jsx
-├── App.css
-└── index.css
+├── App.jsx                   # Componente principal da aplicação
+├── main.jsx                  # Ponto de entrada da aplicação React
+├── App.css                   # Estilos globais da aplicação
+└── index.css                 # Estilos adicionais utilizados pelo projeto
+
 
 ```
 
