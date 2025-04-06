@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import AddProducts from "../pages/AddProductPage/addProducts.jsx"
+import AddProducts from "../pages/addProducts.jsx"
 import ErrorPage from "../pages/ErrorPage"
-import HomePage from "../pages//HomePage/HomePage.jsx"
-import SobrePage from "../pages/SobrePage/SobrePage.jsx"
-import ProductPage from "../pages/ProductPage/ProductPage.jsx"
+import HomePage from "../pages/HomePage.jsx"
+import SobrePage from "../pages/SobrePage.jsx"
+import ProductPage from "../pages/ProductPage.jsx"
 import MainLayout from "../layout/MainLayout.jsx";
 import ProductLayout from "../layout/ProductLayout.jsx";
-import ProductDetail from "../pages/ProductDetail/ProductDetail.jsx";
-import EditProduct from "../pages/EditProduct/EditProduct.jsx";
+import ProductDetail from "../pages/ProductDetail.jsx";
+import EditProduct from "../pages/EditProduct.jsx";
 
 function CustomRoutes() {
     return (

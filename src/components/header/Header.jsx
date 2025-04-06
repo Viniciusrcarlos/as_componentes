@@ -1,22 +1,26 @@
-import { NavLink } from 'react-router-dom'
-import './Header.css'
+import { NavLink } from "react-router-dom";
 
-function Header () {
-    return (
-        <header className="container">
-            <div className='logo'>
-                <img src="https://wallpapers.com/images/hd/macos-big-sur-1920-x-1920-background-b79vr3wrjof3nscd.jpg"/>
-            </div>
-            <nav className='navigation'>
-                <ul>
-                    <NavLink className={({isActive}) => isActive ? "active" : ""} to={'/'}>Home</NavLink>
-                    <NavLink to={'/produto'}>Produtos</NavLink>
-                    {/*<NavLink to={'/addProduto'}>Cadastrar Produto</NavLink>*/}
-                    <NavLink to={'/sobre'}>Sobre</NavLink>
-                </ul>
-            </nav>
-        </header>
-    )
+function Header() {
+  return (
+    <div className="navbar bg-base-100 shadow-sm">
+      <div className="flex-1">
+        <a className="btn btn-ghost text-xl"><NavLink to={'/'}>Vinicius Raupp</NavLink></a>
+      </div>
+      <div className="flex-none">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <a><NavLink to={'/'}>Home</NavLink></a>
+          </li>
+          <li>
+            <a><NavLink to={'/produto'}>Produtos</NavLink></a>
+          </li>
+          <li>
+            <a><NavLink to={'/sobre'}>Sobre</NavLink></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
-export default Header
+export default Header;

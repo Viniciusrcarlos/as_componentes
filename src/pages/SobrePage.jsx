@@ -1,5 +1,3 @@
-import './SobrePage.css'
-
 function SobrePage() {
     return (
         <div className="principal">
