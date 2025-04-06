@@ -31,23 +31,28 @@ Este é um projeto prático desenvolvido em **React** que simula um sistema de g
 ### 1. Clone o repositório
 
 ```bash
-git https://github.com/Viniciusrcarlos/as_componentes.git
+git clone https://github.com/Viniciusrcarlos/as_componentes.git
+```
+
+### 2. Entre na pasta
+
+```bash
 cd as_componentes
 ```
 
-### 2. Instale as dependências
+### 3. Instale as dependências
 
 ```bash
 npm install
 ```
 
-### 3. Inicie o JSON Server (backend fake)
+### 4. Inicie o JSON Server (backend fake)
 
 ```bash
 npm run server
 ```
 
-### 4. Rode o projeto React
+### 5. Rode o projeto React
 
 ```bash
 npm run dev
