@@ -115,9 +115,17 @@ function EditProduct() {
                     </div>
                 </div>
 
-                <button type="submit" className="btn btn-warning w-full">
-                    Salvar Alterações
-                </button>
+                <div className="flex justify-center gap-4">
+                    <button type="submit" className="btn btn-warning">
+                        Salvar Alterações
+                    </button>
+
+                    <button className="btn btn-error" onClick={() => navigate('/produto')}>
+                        Cancelar
+                    </button>
+                </div>
+
+
 
                 {previewUrl && (
                     <div className="mt-4 text-center">

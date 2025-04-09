@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Teste",
-      "price": "321",
+      "price": "123",
       "description": "Descrição do Produto 1",
       "photo_url": "https://picsum.photos/200"
     },
@@ -131,13 +131,6 @@
       "name": "Produto 20",
       "price": 209.99,
       "description": "Descrição do Produto 20",
-      "photo_url": "https://picsum.photos/200"
-    },
-    {
-      "id": "6a6e",
-      "name": "vini",
-      "price": "321",
-      "description": "321",
       "photo_url": "https://picsum.photos/200"
     }
   ]

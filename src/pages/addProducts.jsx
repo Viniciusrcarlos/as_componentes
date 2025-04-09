@@ -108,9 +108,17 @@ function AddProducts() {
                     </div>
                 </div>
 
-                <button type="submit" className="btn btn-success w-full">
-                    Cadastrar
-                </button>
+                <div className="flex justify-center gap-4">
+                    <button type="submit" className="btn btn-success">
+                        Cadastrar
+                    </button>
+
+                    <button className="btn btn-error" onClick={() => navigate('/produto')}>
+                        Cancelar
+                    </button>
+                </div>
+
+
 
                 {previewUrl && (
                     <div className="mt-4 text-center">
